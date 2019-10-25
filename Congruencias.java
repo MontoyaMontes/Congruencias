@@ -11,7 +11,7 @@ import java.lang.*;
  * <p>Clase que se encarga de solucionar operaciones de modularidad y congruencias.</p>
  *
  */
-public class Confruencias{
+public class Congruencias{
 
 	/**
 	 * Método que calcula el modulo m de un número n.
@@ -44,10 +44,14 @@ public class Confruencias{
     public static void main(String[] arg){ 
     	try{
     		//Valores que se pueden cambiar.
+    		/**
     		int n = 143;
     		int modulo = 391;
     		int resultado = 259;
-			
+			*/
+			int n = 4;
+			int modulo = 35;
+			int resultado = modulo(-7,35);
 			System.out.println("El valor de k de la siguiente formula: \n" 
 								+ n + "*k congruente " + resultado + "(modulo " + modulo+")");
 			
